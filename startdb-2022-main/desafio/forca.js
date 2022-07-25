@@ -10,6 +10,7 @@ class Forca {
 
 
   chutar(letra) {
+    letra = letra.toLowerCase();
     if (letra.length == 1) { 
   
    {
